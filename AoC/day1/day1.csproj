@@ -8,4 +8,11 @@
         <RootNamespace>AoC</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="input.txt" />
+      <Content Include="input.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

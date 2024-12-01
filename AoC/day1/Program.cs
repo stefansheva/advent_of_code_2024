@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using AoC;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Advent of Code 2024");
+
+// await Executor.FirstPart();
+await Executor.SecondPart();
