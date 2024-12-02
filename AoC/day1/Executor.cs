@@ -11,7 +11,6 @@ public static class Executor
 
         var numbers = gameInput.Replace(Separator, EmptySpace)
             .Split("\n")
-            .ToList()
             .Select(item => item.Split(EmptySpace))
             .Select(x => (int.Parse(x[0]), int.Parse(x[1])));
 
@@ -28,7 +27,6 @@ public static class Executor
 
         var numbers = gameInput.Replace(Separator, EmptySpace)
             .Split("\n")
-            .ToList()
             .Select(item => item.Split(EmptySpace))
             .Select(x => (int.Parse(x[0]), int.Parse(x[1])));
 
