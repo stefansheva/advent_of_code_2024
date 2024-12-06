@@ -1,6 +1,6 @@
 ﻿namespace Utils;
 
-public static class Helpers
+public static class Utils
 {
     /// <summary>
     /// This util function get next element from Enum
